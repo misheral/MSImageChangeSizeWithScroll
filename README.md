@@ -1,5 +1,6 @@
 # MSImageChangeSizeWithScroll
 Objective-C，下拉列表时修改表头图片的大小，滚动视图的delegat方法内实现view的frame修改。
+...
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView{
     CGPoint point = scrollView.contentOffset;
@@ -12,3 +13,5 @@ Objective-C，下拉列表时修改表头图片的大小，滚动视图的delega
     }
     self.headerView.frame = rect;
 }
+
+...
